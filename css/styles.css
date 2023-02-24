@@ -711,8 +711,16 @@ border-radius: 4px;
 padding-left: 35px;
 background-color: transparent;
 }
-.modal-input + .user-name+.user-person+.user::placeholder-shown{
+.modal-input + .user-name::placeholder-shown{
     fill: var(--blue-color);   
+}
+.modal-input + .user-person::placeholder-shown :hover,
+.modal-input + .user-person::placeholder-shown :focus{
+    fill: var(--blue-color);   
+}
+.modal-input +.user::placeholder-shown :hover,
+.modal-input +.user::placeholder-shown :focus{
+    fill: var(--blue-color); 
 }
 .modal-input:focus,
 .modal-input :hover{
