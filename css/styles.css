@@ -652,8 +652,6 @@ color: var(--blue2-color);
     padding: 0px;
 }
 .icon-a{
-    display: flex;
-    align-items: center;
     background-position:center;
 }
 .is-hidden{
