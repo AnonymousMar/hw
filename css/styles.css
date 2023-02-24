@@ -654,7 +654,6 @@ color: var(--blue2-color);
 .icon-a{
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 .is-hidden{
     opacity: 0;
