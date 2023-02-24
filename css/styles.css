@@ -650,7 +650,6 @@ color: var(--blue2-color);
     border:  1px solid rgba(0, 0, 0, 0.1);
     background-color: var(--while2-color);
     padding: 0px;
-    display: flex;
 }
 .icon-a{
     align-items: center;
