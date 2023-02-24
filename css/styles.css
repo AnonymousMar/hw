@@ -711,21 +711,23 @@ border-radius: 4px;
 padding-left: 35px;
 background-color: transparent;
 }
-.modal-input + .user-name::placeholder-shown{
+/*.modal-input + .user-name::placeholder-shown{
     fill: var(--blue-color);   
 }
 .modal-input + .user-person::placeholder-shown :hover,
 .modal-input + .user-person::placeholder-shown :focus{
     fill: var(--blue-color);   
-}
+}*/
 .modal-input +.user::placeholder-shown :hover,
 .modal-input +.user::placeholder-shown :focus{
     fill: var(--blue-color); 
 }
-.modal-input:focus,
-.modal-input :hover{
+.modal-input:focus{
 border-color: var(--blue-color);
 outline: none;
+}
+.modal-input:focus + .user{
+fill: var(--blue-color);
 }
 .modal-coment:focus{
 border-color: var(--blue-color);
@@ -759,22 +761,6 @@ background-color: var(--blue2-color);
     display: inline-block;
 }
 /*--------------------------SVG----------------*/
-.user-name{
-    display: block;
-    position: absolute;
-    left: 20px;
-    top: 50%;
-    transform: translate(0,-50%);
-    fill: var(--title-color);
-}
-.user-person{
-    display: block;
-    position: absolute;
-    left: 20px;
-    top: 50%;
-    transform: translate(0,-50%);
-    fill: var(--title-color);
-}
 .user{
     display: block;
     left: 20px;
