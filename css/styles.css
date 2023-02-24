@@ -583,7 +583,7 @@ color: var(--while-color);
 .box-icone2{
     display: flex;
      gap: 24px;
-    margin-top: 8px;
+    margin-top: 16px;
 }
 .box-icone{
     width: 4opx;
@@ -649,6 +649,12 @@ color: var(--blue2-color);
     cursor: pointer;
     border:  1px solid rgba(0, 0, 0, 0.1);
     background-color: var(--while2-color);
+    padding: 0px;
+}
+.icon-a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .is-hidden{
     opacity: 0;
@@ -688,7 +694,8 @@ transition:transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-s{
     height: 40px;
-    width: 175px;
+   display: flex;
+   align-items: center;
     padding: 8px 24px;
     color: var(--while-color);
     background-color: var(--blue-color);
@@ -700,12 +707,9 @@ transition:transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-send{
 margin-left: 16px;
-position: absolute;
 fill: var(--while-color);
 }
 .modal-input{
-color: var(--blue-color);
-margin-right: 24px;
 width: 100%;
 height: 40px;
 border: 1px solid rgba(33, 33, 33, 0.2);
@@ -751,11 +755,12 @@ background-color: var(--blue2-color);
     color: var(--title3-color);
     margin-bottom: 4px;
     display: inline-block;
+    letter-spacing: 0.04em;
 }
 /*--------------------------SVG----------------*/
 .user{
     display: block;
-    left: 20px;
+    left: 16px;
     top: 50%;
     transform: translate(0,-50%);
     fill:var(--title-color) ;
@@ -767,7 +772,6 @@ background-color: var(--blue2-color);
 /*-------------------------*/
 
 .modal-coment{
-color: var(--blue-color);
 width: 360px;
 height: 120px;
 border: 1px solid rgba(33, 33, 33, 0.2);
@@ -777,6 +781,7 @@ outline: none;
 padding: 8px 16px ;
 resize: none;
 transition:transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+display: block;
 }
 .modal-coment:placeholder-shown{
 color: var(--blue-color);
@@ -788,8 +793,8 @@ color: var(--blue-color);
 }
 .modal-coment-label{
     margin-bottom: 8px;
-    margin-top: 4px;
     transition:transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: block;
 }
 .modal-field{
     margin-bottom: 24px;
@@ -800,10 +805,9 @@ color: var(--blue-color);
     display: flex;
     width:16px ;
     height: 16px;
-    border: 2px solid var(--title-color);
-    border-radius: 15%;
-    cursor: pointer;
-    margin-right: 10px;
+    border: 1.25px solid var(--title-color);
+    border-radius: 2px;
+    margin-right:8px;
 }
 .privaty-text{
     font-weight: 400;
@@ -831,7 +835,10 @@ color: var(--blue-color);
     background-color: var(--blue-color);
     border: none;
     background-image: url(../images/Vector\ \(8\).svg);
-    fill: var(--while-color);
     background-repeat: no-repeat;
     background-position:center;
+}
+.contact-form{
+    display: flex;
+    align-items: center;
 }

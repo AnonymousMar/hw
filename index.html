@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main Page</title>
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <main>
@@ -280,7 +280,7 @@
             <a class="studio-footer link footer-end list " href=""><span class="web2">Web</span>studio</a></li>
         <p class="end-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
     </div>
-        <div class="footer-div">
+        <div class="footer-div-1">
         <p class="media">Social media</p>
         <ul class="box-icone2 list ">
             <li class="box-icone">
@@ -311,14 +311,13 @@
 </div>
 <div class="footer-div">
     <p class="subscribe">Subscribe</p>
-   <form >
-        <label>
-          <input 
+   <form class="contact-form">
+          <input
+          aria-label="E-mail" 
           type="email" 
           name="email"
           class="email" 
           placeholder="E-mail"</form>
-        </label>
     <button class="button-s">Subscribe
         <svg class=" icon-send" width="24" height="20">
             <use href="./images/symbol3-defs.svg#icon-Frame-3-1"></use>
@@ -346,8 +345,8 @@
                     minlength="2"
                     required
                     pattern="^[a-zA-Za-яА-Я]+$">
-                    <svg class=" user" width="12" height="12">
-                       <use href="./images/symbol-defs4.svg#icon-person-black-18dp-1-1"></use>
+                    <svg class=" user" width="18" height="18">
+                       <use href="./images/symbol-defs2.svg#icon-person-black-18dp-1-2-1"></use>
                    </svg>
                 </div>
                 </label>
@@ -360,8 +359,8 @@
                   name="user_tel"
                   minlength="2"
                   required>
-                  <svg class=" user" width="12" height="12" >
-                      <use href="./images/symbol-defs4.svg#icon-Vector-5-1"></use>
+                  <svg class=" user" width="18" height="24" >
+                      <use href="./images/symbol-defs2.svg#icon-phone-black-18dp-1-1"></use>
                   </svg>
               </div>  
             </label>
@@ -373,8 +372,8 @@
                    class="modal-input"
                    name="user_email"
                    required>
-                   <svg class=" user" width="12" height="12" >
-                       <use href="./images/symbol-defs4.svg#icon-Vector-6-1"></use>
+                   <svg class=" user" width="18" height="24" >
+                       <use href="./images/symbol-defs2.svg#icon-email-black-18dp-1-1"></use>
                    </svg>
             </div>
             </label>
@@ -389,8 +388,8 @@
             <input id="privaty" type="checkbox" class="check-input visual" value="true">     
             <label for="privaty" class="privaty-text">I accept the terms and conditions of the&nbsp;<a href="" class="check">Privacy Policy</a></label>
         </div>
-        </form>
         <button type="submit" class="send">Send</button>
+    </form>
 </div>
     </div>
 </body> 
